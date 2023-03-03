@@ -1,4 +1,4 @@
-# sql-challenge
+# SQL-CHALLENGE
 
 
 # Module 9 Challenge/sql-challenge
