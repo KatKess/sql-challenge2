@@ -10,8 +10,8 @@ dept_no varchar(4) PK
 
 Dept_Manager
 --
-emp_no int PK
 dept_no varchar(4) FK >- Dept_Employees.dept_no
+emp_no int PK FK - Employees.emp_no
 
 Employees
 --
@@ -25,7 +25,7 @@ hire_date date(8)
 
 Salary
 --
-emp_no int PK FK >- Employees.emp_no
+emp_no int PK FK - Employees.emp_no
 salary int
 
 Titles
